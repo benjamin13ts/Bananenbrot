@@ -1,0 +1,18 @@
+h1 { color: rgb(0, 0, 0); }
+.info { color: gray; }
+
+
+body { color: #050505; background: #9c3b12; font-family: Arial, Helvetica, sans-serif; }
+h1 { font-size: 36px; }
+
+.card { background: rgb(223, 111, 111); padding: 16px; margin: 16px 0; border: 1px solid #ddd; border-radius: 8px; }
+
+.nav { display: flex; gap: 12px; }
+.nav a { padding: 8px 12px; background: #e89a9a; text-decoration: none; border-radius: 6px; transition: background-color 200ms ease, color 200ms ease, transform 120ms ease; }
+.nav a:hover { transform: translateY(-3px); }
+
+.card :hover { transform: translateY(-3px); }
+
+@media (max-width: 450px) {
+  .nav { flex-direction: column; }
+}
